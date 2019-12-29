@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bob.push.plugin">
+    
+    <!--<application>-->
+        <!---->
+        <!--<meta-data-->
+            <!--android:name="com.alibaba.app.appkey"-->
+            <!--android:value="${ALIPUSH_APPKEY}" /> &lt;!&ndash; 请填写你自己的- appKey &ndash;&gt;-->
+        <!--<meta-data-->
+            <!--android:name="com.alibaba.app.appsecret"-->
+            <!--android:value="${ALIPUSH_APPSECRET}" /> &lt;!&ndash; 请填写你自己的appSecret &ndash;&gt;-->
+        <!---->
+        <!--&lt;!&ndash; 消息接收监听器 （用户可自主扩展） &ndash;&gt;-->
+        <!--<receiver-->
+            <!--android:name=".MyMessageReceiver"-->
+            <!--android:exported="false"> &lt;!&ndash; 为保证receiver安全，建议设置不可导出，如需对其他应用开放可通过android：permission进行限制 &ndash;&gt;-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.alibaba.push2.action.NOTIFICATION_OPENED" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.alibaba.push2.action.NOTIFICATION_REMOVED" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.alibaba.sdk.android.push.RECEIVE" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!---->
+        <!--<activity-->
+            <!--android:name=".PopupPushActivity"-->
+            <!--android:exported="true" />-->
+    <!---->
+    <!--</application>-->
+</manifest>
